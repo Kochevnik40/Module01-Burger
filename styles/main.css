@@ -3,6 +3,10 @@ body {
 
 }
 
+header {
+    border-bottom: 1px solid #DEDEDE;
+}
+
 .container {
     max-width: 1180px;
     margin: 0 auto;
@@ -42,6 +46,10 @@ body {
     text-decoration: none;
 }
 
+.header-nav a:hover {
+    color: #FFC725;
+}
+
 .header-nav a::after {
     content: '';
     display: block;
@@ -62,6 +70,7 @@ body {
     border: none;
     padding: 0;
     gap: 10px;
+    cursor: pointer;
 }
 
 .button-item {
@@ -94,6 +103,7 @@ body {
     background-size: cover;
     background-position: center center;
     padding: 142px 0px;
+    margin-bottom: 140px;
 }
 
 .breadcrumbs {
@@ -102,7 +112,7 @@ body {
     list-style-type: none;
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 7px;
 }
 
 .breadcrumbs a {
@@ -113,10 +123,18 @@ body {
     font-size: 15px;
 }
 
+.breadcrumbs a:hover {
+    color: #FFC725;
+}
+
+.breadcrumbs a:hover::before {
+    color: #c4bebe;
+}
+
 .breadcrumbs a::before {
     content: '/';
     position: relative;
-    left: -7px;
+    left: -3px;
 }
 
 .breadcrumbs li:first-child a::before {
@@ -128,7 +146,7 @@ body {
     font-weight: 700;
     font-size: 79px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .deskription {
@@ -136,7 +154,59 @@ body {
     color: #c2bfbf;
     font-weight: 400;
     font-size: 15px;
-    line-height: 1.5;
+    line-height: 1.6;
     max-width: 320px;
     margin: 0 auto;
+}
+
+.banner-box {
+    background-image: url(../images/Banner.jpg);
+    background-size: cover;
+    padding: 100px 727px 100px 100px;
+    align-items: flex-start;
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+
+.banner-title span {
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+    color: #FFFFFF;
+    background: #F37335;
+    border-radius: 14px;
+    text-decoration: none;
+    max-width: 60px;
+    padding: 5px 18px;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.banner-text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #c5c4c4;
+}
+
+.banner-box a {
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.banner-link {
+    display: flex;
+    font-weight: 700;
+    font-size: 14px;
+    color: #1E2F40;
+    background-color: #FBB731;
+    border-radius: 5px;
+    max-width: 170px;   
+    text-transform: uppercase;
+    padding: 5px;
 }
