@@ -214,3 +214,13 @@ header {
     text-align: center;
     max-width: 170px;
 }
+
+.banner-box a:hover{
+    background-color: #00FF7F;
+    color: #8B0000;
+}
+
+.banner-box a:hover::before{
+    background-color: #FBB731;
+    color: #1E2F40
+}
