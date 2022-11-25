@@ -212,17 +212,18 @@ header {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 14px;
-    color: #1E2F40;
-    background-color: #FBB731;
+    color: #00FF7F;
+    background-color: transparent;
     border-radius: 5px;
     padding: 20px 0px;
     text-align: center;
     max-width: 170px;
+    border: 1px solid #00FF7F;
 }
 
 .banner-box a:hover {
-    background-color: #00FF7F;
-    color: #8B0000;
+    background-color: #FBB731;
+    color: #D60000;
 }
 
 .banner-box a:hover::before {
@@ -313,10 +314,11 @@ header {
     margin: 0 auto;
     padding: 10px 32px;
     gap: 9px;
+    cursor: pointer;
 }
 
 .menu-grid-btn:hover {
-    background-color: #191cbe;
+    background-color: #F37335;
 }
 
 .menu-grid-icon {
@@ -378,7 +380,7 @@ header {
     list-style-type: none;
 }
 
-.footer-item li {
+.footer-list li {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 15px;
@@ -387,10 +389,14 @@ header {
     margin-bottom: 9px;
 }
 
-.footer-item a {
+.footer-list a {
     color: #DEDEDE;
     text-decoration: none;
     font-weight: 400;
+}
+
+.footer-list a:hover {
+    color: #FBB731;
 }
 
 .footer-item span {
@@ -400,13 +406,20 @@ header {
     margin-bottom: 2px;
 }
 
-.footer-tel ul {
-    font-weight: 800;
-    font-size: 20px;
-    color: #FBB731;
+.footer-list-tel {
     margin-top: 0;
 }
 
-.footer-tel li {
+.footer-list-tel li {
     margin-bottom: 18px;
+}
+
+.footer-list-tel a {
+    font-weight: 800;
+    font-size: 20px;
+    color: #FBB731;
+}
+
+.footer-list-tel a:hover {
+    color: #ffffff;
 }
