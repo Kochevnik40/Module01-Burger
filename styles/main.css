@@ -306,8 +306,8 @@ header {
 .menu-grid-btn {
     background-color: #FBB731;
     border-radius: 5px;
-    border:none;
-    display: flex;   
+    border: none;
+    display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
@@ -315,11 +315,11 @@ header {
     gap: 9px;
 }
 
-.menu-grid-btn:hover{
-    background-color: #00FF7F;
+.menu-grid-btn:hover {
+    background-color: #191cbe;
 }
 
-.menu-grid-icon{
+.menu-grid-icon {
     background-image: url(..//images/cart-menu.svg);
     background-size: cover;
     display: flex;
@@ -329,7 +329,7 @@ header {
     background-repeat: no-repeat;
 }
 
-.menu-grid-text{
+.menu-grid-text {
     font-weight: 700;
     font-size: 14px;
     text-align: center;
@@ -346,12 +346,12 @@ header {
     margin-top: 140px;
 }
 
-.footer-box{
+.footer-box {
     display: flex;
     justify-content: space-between;
 }
 
-.footer-list{
+.footer-list {
     padding-left: 0;
 }
 
@@ -364,7 +364,7 @@ header {
     flex: 0 0 auto;
 }
 
-.footer-item h2 {    
+.footer-item h2 {
     font-weight: 800;
     font-size: 20px;
     text-transform: uppercase;
@@ -382,7 +382,7 @@ header {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 15px;
-    line-height: 24px;  
+    line-height: 24px;
     color: #FAF9F9;
     margin-bottom: 9px;
 }
@@ -400,7 +400,7 @@ header {
     margin-bottom: 2px;
 }
 
-.footer-tel ul {   
+.footer-tel ul {
     font-weight: 800;
     font-size: 20px;
     color: #FBB731;
