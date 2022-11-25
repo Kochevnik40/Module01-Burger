@@ -63,6 +63,10 @@ header {
     background: #FFC725;
 }
 
+.site-nav {
+    flex-basis: 45%;
+}
+
 .button {
     display: flex;
     align-items: center;
@@ -166,11 +170,12 @@ header {
     background-position: center center;
     display: flex;
     flex-direction: column;
-    align-content:center;
+    align-content: center;
     padding: 47px 727px 100px 100px;
+    margin-bottom: 67px;
 }
 
-.banner-title{
+.banner-title {
     font-weight: 900;
     font-size: 60px;
     color: #FFFFFF;
@@ -191,7 +196,7 @@ header {
     margin-bottom: 3px;
 }
 
-.banner-text{
+.banner-text {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 15px;
@@ -202,7 +207,7 @@ header {
     line-height: 1.6;
 }
 
-.banner-box a{
+.banner-box a {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 700;
@@ -215,12 +220,193 @@ header {
     max-width: 170px;
 }
 
-.banner-box a:hover{
+.banner-box a:hover {
     background-color: #00FF7F;
     color: #8B0000;
 }
 
-.banner-box a:hover::before{
+.banner-box a:hover::before {
     background-color: #FBB731;
     color: #1E2F40
+}
+
+.menu-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-title {
+    font-weight: 700;
+    font-size: 44px;
+    text-transform: uppercase;
+    color: #1B2A49;
+}
+
+.menu-select {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    border: 1px solid #DEDEDE;
+    background-color: #FFFFFF;
+    padding: 12px 30px;
+    color: #443737;
+    border-radius: 22px;
+    appearance: none;
+    flex-basis: 279px;
+    background-image: url(../images/arrow.svg);
+    background-repeat: no-repeat;
+    background-size: 12.79px 7.75px;
+    background-position: 89% center;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px 20px;
+    margin-bottom: 67px;
+}
+
+.menu-grid-cover {
+    width: 100%;
+    height: 430px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 22px;
+}
+
+.menu-grid-cover img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    width: 100%;
+    height: 430px;
+}
+
+.menu-grid-title {
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    color: #1B2A49;
+    margin: 0;
+}
+
+.menu-grid-prise {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #979797;
+    margin-top: 11px;
+    margin-bottom: 20px;
+
+}
+
+.menu-grid-btn {
+    background-color: #FBB731;
+    border-radius: 5px;
+    border:none;
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px 32px;
+    gap: 9px;
+}
+
+.menu-grid-btn:hover{
+    background-color: #00FF7F;
+}
+
+.menu-grid-icon{
+    background-image: url(..//images/cart-menu.svg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    width: 18px;
+    height: 18px;
+    background-repeat: no-repeat;
+}
+
+.menu-grid-text{
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1E2F40;
+}
+
+
+.footer {
+    background: #1E2F40;
+    color: #fff;
+    padding-top: 117px;
+    padding-bottom: 106px;
+    margin-top: 140px;
+}
+
+.footer-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-list{
+    padding-left: 0;
+}
+
+.footer-logo {
+    width: 63px;
+    height: 56px;
+}
+
+.footer-item {
+    flex: 0 0 auto;
+}
+
+.footer-item h2 {    
+    font-weight: 800;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 21px;
+    margin-top: 0;
+}
+
+.footer-item ul,
+.footer-tel ul {
+    list-style-type: none;
+}
+
+.footer-item li {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;  
+    color: #FAF9F9;
+    margin-bottom: 9px;
+}
+
+.footer-item a {
+    color: #DEDEDE;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.footer-item span {
+    color: #DEDEDE;
+    display: block;
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+
+.footer-tel ul {   
+    font-weight: 800;
+    font-size: 20px;
+    color: #FBB731;
+    margin-top: 0;
+}
+
+.footer-tel li {
+    margin-bottom: 18px;
 }
